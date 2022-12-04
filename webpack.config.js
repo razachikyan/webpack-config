@@ -53,7 +53,7 @@ module.exports = {
    context: path.resolve(__dirname, "src"),
    mode: "development",
    entry: {
-      main: ["@babel/polyfill", "./index.jsx"],
+      main: ["@babel/polyfill", "./index.tsx"],
       analytics: "./analytics.ts"
    },
    devtool: isDev ? "eval" : "source-map",
