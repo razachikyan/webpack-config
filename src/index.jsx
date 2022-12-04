@@ -13,7 +13,7 @@ $("pre").html(Post1.toString());
 
 function App() {
     return (
-        <Header />
+        <div></div>
     )
 }
 
